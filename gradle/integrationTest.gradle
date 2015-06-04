@@ -23,6 +23,7 @@ check.dependsOn integrationTest
 
 sonarRunner {
     sonarProperties {
-        properties['sonar.tests'] += sourceSets.integrationTest.allSource.srcDirs
+//        properties['sonar.tests'] += sourceSets.integrationTest.allSource.srcDirs
+        properties['sonar.tests'] += file('src/integTest')
     }
 }
