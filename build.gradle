@@ -4,11 +4,11 @@ apply plugin: 'sonar-runner'
 apply plugin: 'jacoco'
 
 sonarRunner {
-    sonarProperties {
-        property 'sonar.projectName', 'todo'
-        property 'sonar.projectDescription', 'A task management application'
-    }
-    toolVersion = '2.4'
+//    sonarProperties {
+//        property 'sonar.projectName', 'todo'
+//        property 'sonar.projectDescription', 'A task management application'
+//    }
+//    toolVersion = '2.4'
 }
 
 allprojects {
